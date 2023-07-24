@@ -2,17 +2,22 @@
   "name": "jsenior",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "start": "nodemon index.js"
+    "dev:server": "npx ts-node-dev ./src/index.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "nodemon": "^3.0.1"
+    "express": "^4.18.2"
   },
-  "type": "module",
   "keywords": [],
   "author": "Luzia Gabriela Abreu da Silva Santos",
-  "license": "ISC"
+  "company": "Girludev",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  }
 }
