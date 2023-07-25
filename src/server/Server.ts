@@ -1,12 +1,11 @@
 import cors from "cors";
 import express from "express";
+import { router } from "./routes";
 
 const server = express();
 
 server.use(cors());
-
-server.get("/", (request, response) => {
-    return response.send("Olá, Dev");
-});
+server.use(express.json());
+server.use(router);
 
 export { server };
