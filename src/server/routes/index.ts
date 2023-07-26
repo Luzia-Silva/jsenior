@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { StatusCodes } from "http-status-codes";
+import { Controllers } from "../../controllers";
 
 const router = Router();
 
@@ -7,9 +7,6 @@ router.get("/", (request, response) => {
     return response.send("Olá");
 });
 
-router.post("/test", (request, response) => {
-    console.log(request.body);
-    return response.status(StatusCodes.ACCEPTED).send("OK");
-});
+router.post("/send-json", Controllers.create);
 
 export { router };
