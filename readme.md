@@ -1,4 +1,10 @@
-## O Jsenior é uma forma divertida de chamar um mock de dados, porque ele pode ser considerado senior pela capacidade e por ser essencial para os Devs. Dessa forma, a partir de um json, o tipo de método (CRUD) e o endereço será possível acessar seus dados  pelas rotas e fazer o seu frontend. 
+# JSENIOR
+O Jsenior é um emocionante projeto de estudos que leva esse nome em homenagem aos arquivos JSON, que podem ser considerados "seniors" no mundo do desenvolvimento de software. De fato, esses formatos de dados são essenciais para os desenvolvedores, e como um Dev Frontend, reconheci a importância de aprimorar minhas habilidades em construção de APIs em TypeScript.
 
+Durante minha jornada de aprendizado, percebi que minha experiência em construir APIs estava enferrujada. Decidi, então, mergulhar em diversos vídeos e aulas que abordavam padrões de construção de backends robustos e bem estruturados. O objetivo era me tornar um desenvolvedor mais completo e confiante em todas as áreas do desenvolvimento web. Caso interesse você esse projeto fique a para clonar e viva as OpenSource! 🚀
 
-![alt text](https://i.redd.it/gxswf46j5vj61.jpg)
+![alt text](https://media.giphy.com/media/6yxtrkQc5n0beHu7X2/giphy.gif)
+
+<div align="center">
+    Girludev 🧁
+</div>
